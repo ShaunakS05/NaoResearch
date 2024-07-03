@@ -6,7 +6,7 @@ import tempfile
 import sounddevice as sd
 import numpy as np
 
-client = openai.OpenAI(api_key="sk-proj-cAycvFgfQ3bqbL8CC4DJT3BlbkFJhxfM41opJ25wHzkMkGZ0")
+client = openai.OpenAI(api_key="")
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 host = '127.0.0.1'
